@@ -25,15 +25,29 @@ export default function App() {
       <Navbar activeIndex={activeIndex} onCategoryClick={(i) => setActiveIndex(i)} />
       
       <main className="perspective-container">
-        <HeroSlider activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
-        <StoreSection />
-        <CollectionScroll />
-        <BrandGrid />
-        <ShopByOccasion />
-        <SocialSync />
+        <section id="home">
+          <HeroSlider activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
+        </section>
+        <section id="stores">
+          <StoreSection />
+        </section>
+        <section id="collections">
+          <CollectionScroll />
+        </section>
+        <section id="brands">
+          <BrandGrid />
+        </section>
+        <section id="occasions">
+          <ShopByOccasion />
+        </section>
+        <section id="social">
+          <SocialSync />
+        </section>
       </main>
       
-      <Footer />
+      <section id="contact">
+        <Footer />
+      </section>
     </div>
   );
 }

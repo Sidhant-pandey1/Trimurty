@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Instagram } from 'lucide-react';
+import { Facebook, Linkedin, Instagram, Youtube, Twitter } from 'lucide-react';
 
 export default function SocialSync() {
   return (
@@ -21,10 +21,22 @@ export default function SocialSync() {
       </div>
 
       {/* Social Logos */}
-      <div className="flex justify-center gap-8 py-4 grayscale opacity-70">
-        <Facebook className="w-8 h-8 cursor-pointer hover:text-blue-600 hover:grayscale-0 transition-all" />
-        <Linkedin className="w-8 h-8 cursor-pointer hover:text-blue-700 hover:grayscale-0 transition-all" />
-        <div className="font-bold text-xl cursor-pointer hover:text-orange-600 hover:grayscale-0">fOX</div>
+      <div className="flex justify-center gap-8 py-4 opacity-80 flex-wrap">
+        <a href="https://www.facebook.com/trimurtifashions" target="_blank" rel="noopener noreferrer">
+          <Facebook className="w-6 h-6 cursor-pointer text-[#002366]/40 hover:text-[#002366] transition-all" />
+        </a>
+        <a href="https://www.instagram.com/trimurtifashions" target="_blank" rel="noopener noreferrer">
+          <Instagram className="w-6 h-6 cursor-pointer text-[#002366]/40 hover:text-[#002366] transition-all" />
+        </a>
+        <a href="https://www.linkedin.com/company/trimurtifashions/" target="_blank" rel="noopener noreferrer">
+          <Linkedin className="w-6 h-6 cursor-pointer text-[#002366]/40 hover:text-[#002366] transition-all" />
+        </a>
+        <a href="https://x.com/trimurtifashion" target="_blank" rel="noopener noreferrer">
+          <Twitter className="w-6 h-6 cursor-pointer text-[#002366]/40 hover:text-[#002366] transition-all" />
+        </a>
+        <a href="https://www.youtube.com/@trimurtifashions" target="_blank" rel="noopener noreferrer">
+          <Youtube className="w-6 h-6 cursor-pointer text-[#002366]/40 hover:text-[#002366] transition-all" />
+        </a>
       </div>
     </section>
   );
