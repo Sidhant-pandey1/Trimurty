@@ -58,10 +58,10 @@ export default function HeroSlider({ activeIndex, setActiveIndex }) {
   */
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-black">
+    <div className="relative w-full overflow-hidden bg-white">
       <img 
         src={heroImage} 
-        className="w-full h-full object-cover" 
+        className="w-full h-auto md:h-screen object-contain md:object-cover block" 
         alt="Hero Banner" 
       />
 

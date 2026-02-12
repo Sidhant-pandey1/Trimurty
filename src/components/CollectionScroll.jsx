@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 
 const collections = [
-  { id: 1, name: "Sarees", price: "₹299", img: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500" },
-  { id: 2, name: "Menswear", price: "₹499", img: "https://images.unsplash.com/photo-1594932224828-b4b059bdb996?w=500" },
-  { id: 3, name: "Kids Wear", price: "₹199", img: "https://images.unsplash.com/photo-1621112904887-419379ce6824?w=500" },
+  { id: 1, name: "Designer Sarees", price: "₹499", img: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=800&auto=format&fit=crop" },
+  { id: 2, name: "Mens Ethnic", price: "₹799", img: "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop" },
+  { id: 3, name: "Kids Fashion", price: "₹299", img: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop" },
+  { id: 4, name: "Bridal Lehengas", price: "₹1999", img: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800&auto=format&fit=crop" },
 ];
 
 export default function CollectionScroll() {
@@ -27,7 +28,7 @@ export default function CollectionScroll() {
                 transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
                 className="whitespace-nowrap font-bold uppercase tracking-widest text-sm"
               >
-                {item.name} Starting From {item.price} • {item.name} Starting From {item.price}
+                {item.name} • Starting @ {item.price} • {item.name} • Starting @ {item.price}
               </motion.p>
             </div>
           </div>
