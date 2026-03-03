@@ -1,4 +1,5 @@
 import { Facebook, Linkedin, Instagram, Youtube, Twitter } from 'lucide-react';
+import instaVideo from '../assets/instaVideo.mp4';
 
 export default function SocialSync() {
   return (
@@ -10,13 +11,17 @@ export default function SocialSync() {
         </h2>
       </div>
 
-      {/* Instagram Video Placeholder */}
-      <div className="bg-white p-4 rounded-xl shadow-inner border-2 border-dashed border-gray-300 mb-8">
-        <div className="aspect-[9/16] max-w-[300px] mx-auto bg-gray-200 rounded-lg flex flex-col items-center justify-center text-center p-6">
-          <Instagram className="w-12 h-12 text-pink-600 mb-4" />
-          <p className="text-xs text-gray-500 italic">
-            Instagram post sync: Videos uploaded regularly via insta link
-          </p>
+      {/* Instagram Video */}
+      <div className="bg-white p-4 rounded-xl shadow-inner border-2 border-gray-100 mb-8 max-w-[350px] mx-auto">
+        <div className="aspect-[9/16] w-full bg-gray-900 rounded-lg overflow-hidden flex flex-col items-center justify-center text-center relative shadow-lg">
+          <video 
+            src={instaVideo} 
+            className="w-full h-full object-cover"
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+          />
         </div>
       </div>
 

@@ -18,9 +18,9 @@ export default function StoreSection() {
         <a href="https://maps.app.goo.gl/nCVmxjkLAij8DhU87" target="_blank" rel="noopener noreferrer" className="bg-[#002366] text-white py-5 rounded-2xl font-bold shadow-lg uppercase tracking-widest active:scale-95 transition-transform">
           Kesinga <span className="block text-[9px] font-normal opacity-70 mt-1">Near Jagannath Temple</span>
         </a>
-        <a href="https://maps.app.goo.gl/2ak39pd1bY72KnbU9" target="_blank" rel="noopener noreferrer" className="bg-[#002366] text-white py-5 rounded-2xl font-bold shadow-lg uppercase tracking-widest active:scale-95 transition-transform">
+        {/* <a href="https://maps.app.goo.gl/2ak39pd1bY72KnbU9" target="_blank" rel="noopener noreferrer" className="bg-[#002366] text-white py-5 rounded-2xl font-bold shadow-lg uppercase tracking-widest active:scale-95 transition-transform">
           Bhawanipatna <span className="block text-[9px] font-normal opacity-70 mt-1">Store Location</span>
-        </a>
+        </a> */}
       </div>
     </section>
   );

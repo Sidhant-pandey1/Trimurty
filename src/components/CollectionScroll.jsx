@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion';
+import sarees from "../assets/Sarees.png"
+import men from "../assets/MensWear.png"
+import kids from "../assets/KidsWear.png"
+import Women from "../assets/WomenWear.png"
 
 const collections = [
-  { id: 1, name: "Designer Sarees", price: "₹499", img: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=800&auto=format&fit=crop" },
-  { id: 2, name: "Mens Ethnic", price: "₹799", img: "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?q=80&w=800&auto=format&fit=crop" },
-  { id: 3, name: "Kids Fashion", price: "₹299", img: "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?q=80&w=800&auto=format&fit=crop" },
-  { id: 4, name: "Bridal Lehengas", price: "₹1999", img: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=800&auto=format&fit=crop" },
+  { id: 1, name: "Designer Sarees", price: "₹499", img: sarees },
+  { id: 2, name: "Mens Ethnic", price: "₹799", img: men },
+  { id: 3, name: "Kids Fashion", price: "₹299", img: kids },
+  { id: 4, name: "Bridal Lehengas", price: "₹1999", img: Women },
 ];
 
 export default function CollectionScroll() {
