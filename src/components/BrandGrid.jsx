@@ -43,7 +43,7 @@ const BrandColumn = ({ items, direction = "up", speed = 20 }) => {
 
 export default function BrandGrid() {
   return (
-    <section className="py-16 bg-[#002366] overflow-hidden relative">
+    <section className="py-16 bg-[#104297] overflow-hidden relative">
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
       
       <div className="container mx-auto px-4 relative z-10">
